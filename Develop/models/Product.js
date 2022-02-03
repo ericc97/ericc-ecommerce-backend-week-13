@@ -25,6 +25,7 @@ Product.init(
       allowNull: false,
       validate: {
         // enter validation here
+        isDecimal: true
       }
     },
     stock: {
@@ -33,13 +34,14 @@ Product.init(
       defaultValue: 10,
       validate: {
         // enter validation here
+        isNumeric: true
       }
     },
     category_id: {
       type: DataTypes.INTEGER,
       reference: {
         model: Category,
-        where: 'id'
+        key: 'id'
       }
     }
   },
