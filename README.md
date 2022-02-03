@@ -8,5 +8,5 @@ A backend designed for e-commerce websites. This app utilizes Express.js, MySQL,
 
 
 Link
-GitHub Link: 
-Screencastify Link: 
+GitHub Link: https://github.com/ericc97/ericc-ecommerce-backend-week-13
+Screencastify Link: https://watch.screencastify.com/v/DG5HI3CrrZDMVUWUTYkP
